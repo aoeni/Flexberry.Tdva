@@ -22,31 +22,30 @@ export default Controller.extend({
             link: 'i-i-s-tdva-посад-талон-l',
             caption: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-посад-талон-l.caption'),
             title: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-посад-талон-l.title'),
-            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-tdva-пассажир-l',
             caption: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-пассажир-l.caption'),
             title: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-пассажир-l.title'),
-            icon: 'paperclip',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-tdva-коды-l',
             caption: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-коды-l.caption'),
             title: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-коды-l.title'),
-            icon: 'archive',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-tdva-класс-билета-l',
             caption: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-класс-билета-l.caption'),
             title: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-класс-билета-l.title'),
-            icon: 'building',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-tdva-рейс-l',
             caption: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-рейс-l.caption'),
             title: i18n.t('forms.application.sitemap.tdva.i-i-s-tdva-рейс-l.title'),
-            icon: 'table',
+            icon: 'building',
             children: null
           }]
         }

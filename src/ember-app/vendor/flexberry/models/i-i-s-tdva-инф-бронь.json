@@ -54,6 +54,27 @@
               "name": "коды",
               "relatedTo": "i-i-s-tdva-коды",
               "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.КлассБилета",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "место",
+                  "caption": "Место",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "классБилета",
+              "relatedTo": "i-i-s-tdva-класс-билета",
+              "inverse": null
             }
           ],
           "hidden": false,

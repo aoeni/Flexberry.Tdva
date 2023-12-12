@@ -32,7 +32,8 @@ namespace IIS.Tdva
     [View("ИнфБроньE", new string[] {
             "Пассажир as \'Пассажир\'",
             "Пассажир.ФИО as \'ФИО\'",
-            "Пассажир.Коды.КодБрони as \'Код\'"}, Hidden=new string[] {
+            "Пассажир.Коды.КодБрони as \'Код\'",
+            "Пассажир.КлассБилета.Место as \'Место\'"}, Hidden=new string[] {
             "Пассажир.ФИО"})]
     [MasterViewDefineAttribute("ИнфБроньE", "Пассажир", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "ФИО")]
     public class ИнфБронь : ICSSoft.STORMNET.DataObject
