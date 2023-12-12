@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Класс билета",
+  "name": "IISTdvaКлассБилетаE",
+  "className": "КлассБилетаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tdva-класс-билета",
+      "modelProjection": "КлассБилетаE"
+    }
+  ]
+}

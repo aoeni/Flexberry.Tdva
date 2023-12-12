@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Tdva",
+  "applicationTitle": "Tdva",
+  "items": [
+    {
+      "link": null,
+      "menuName": "tdva",
+      "caption": "Tdva",
+      "title": "Tdva",
+      "children": [
+        {
+          "link": "i-i-s-tdva-посад-талон-l",
+          "menuName": null,
+          "caption": "Посад талон",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tdva-пассажир-l",
+          "menuName": null,
+          "caption": "Пассажир",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tdva-коды-l",
+          "menuName": null,
+          "caption": "Коды",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tdva-класс-билета-l",
+          "menuName": null,
+          "caption": "Класс билета",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tdva-рейс-l",
+          "menuName": null,
+          "caption": "Рейс",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

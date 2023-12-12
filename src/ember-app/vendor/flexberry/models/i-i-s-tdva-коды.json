@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISTdvaКоды",
+  "modelName": "i-i-s-tdva-коды",
+  "className": "Коды",
+  "nameSpace": "IIS.Tdva",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодБрони",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КодыE",
+      "modelName": "i-i-s-tdva-коды",
+      "attrs": [
+        {
+          "name": "кодБрони",
+          "caption": "Код брони",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КодыL",
+      "modelName": "i-i-s-tdva-коды",
+      "attrs": [
+        {
+          "name": "кодБрони",
+          "caption": "Код брони",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

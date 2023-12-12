@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tdva-коды-e",
+  "editForm": "i-i-s-tdva-коды-e",
+  "external": false,
+  "caption": "Коды",
+  "name": "IISTdvaКодыL",
+  "className": "КодыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tdva-коды",
+      "modelProjection": "КодыL"
+    }
+  ]
+}

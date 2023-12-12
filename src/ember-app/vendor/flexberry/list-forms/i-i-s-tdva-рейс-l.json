@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tdva-рейс-e",
+  "editForm": "i-i-s-tdva-рейс-e",
+  "external": false,
+  "caption": "Рейс",
+  "name": "IISTdvaРейсL",
+  "className": "РейсL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tdva-рейс",
+      "modelProjection": "РейсL"
+    }
+  ]
+}

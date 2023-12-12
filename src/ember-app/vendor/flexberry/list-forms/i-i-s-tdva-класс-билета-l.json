@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tdva-класс-билета-e",
+  "editForm": "i-i-s-tdva-класс-билета-e",
+  "external": false,
+  "caption": "Класс билета",
+  "name": "IISTdvaКлассБилетаL",
+  "className": "КлассБилетаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tdva-класс-билета",
+      "modelProjection": "КлассБилетаL"
+    }
+  ]
+}

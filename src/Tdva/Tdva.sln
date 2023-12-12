@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdva.Objects", "Objects/Tdva.Objects.csproj", "{400EB08B-98B2-4D79-89B3-D5C52922BA75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdva.ODataBackend", "ODataBackend/Tdva.ODataBackend.csproj", "{D8F9F7EE-F7CB-4BBE-8DDD-EFE78BC17EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{400EB08B-98B2-4D79-89B3-D5C52922BA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400EB08B-98B2-4D79-89B3-D5C52922BA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400EB08B-98B2-4D79-89B3-D5C52922BA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400EB08B-98B2-4D79-89B3-D5C52922BA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F9F7EE-F7CB-4BBE-8DDD-EFE78BC17EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F9F7EE-F7CB-4BBE-8DDD-EFE78BC17EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F9F7EE-F7CB-4BBE-8DDD-EFE78BC17EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F9F7EE-F7CB-4BBE-8DDD-EFE78BC17EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

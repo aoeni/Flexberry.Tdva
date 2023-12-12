@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Коды",
+  "name": "IISTdvaКодыE",
+  "className": "КодыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tdva-коды",
+      "modelProjection": "КодыE"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+﻿{
+  "name": "IISTdvaИнфБронь",
+  "modelName": "i-i-s-tdva-инф-бронь",
+  "className": "ИнфБронь",
+  "nameSpace": "IIS.Tdva",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пассажир",
+      "relatedTo": "i-i-s-tdva-пассажир",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рейс",
+      "relatedTo": "i-i-s-tdva-рейс",
+      "inverse": "инфБронь"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ИнфБроньE",
+      "modelName": "i-i-s-tdva-инф-бронь",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Пассажир",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.Коды",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "кодБрони",
+                  "caption": "Код",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "коды",
+              "relatedTo": "i-i-s-tdva-коды",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Пассажир",
+          "name": "пассажир",
+          "relatedTo": "i-i-s-tdva-пассажир",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
